@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(150, 202, 233);
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+.circle {
+  color: white;
+  width: 100px;
+  margin: 60px auto;
+  padding: 50px 0;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: rgb(252, 165, 165);
+  /* transition: 1s; */
+  /* can specify seperately */
+  transition: backgroundcolor 1s, transform 5s;
+}
+
+.circle:hover {
+  background-color: pink;
+  transform: rotate(360deg);
+}
