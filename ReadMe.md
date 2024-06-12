@@ -1,3 +1,6 @@
-This repository contains codes written while learning from www.theodinproject.com.
+# Code Repository
 
-Day 1: Basics of JS
+This repository contains codes written while learning from the following resources:
+
+1. [The Odin Project](https://www.theodinproject.com)
+2. [Net Ninja on YouTube](https://www.youtube.com/@NetNinja)

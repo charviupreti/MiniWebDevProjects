@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(150, 202, 233);
+}
+
+img {
+  width: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#box1 {
+  transform: translateX(50px) translateY(30px);
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+#box2 {
+  transform: scale(2);
+}
+
+#box3 {
+  transform: scale(-1);
+}
+
+#box4 {
+  transform: rotate(90deg);
+}
+
+#box5 {
+  transform: rotateX(60deg);
+}
+
+#box6 {
+  transform: rotateY(60deg);
+}
+
+#box7 {
+  transform: rotateZ(90deg);
+}
