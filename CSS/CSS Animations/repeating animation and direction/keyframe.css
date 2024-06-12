@@ -1,0 +1,40 @@
+body {
+  background: lightblue;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background: pink;
+  border-radius: 50px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  animation-name: move;
+  animation-duration: 1s;
+  /* animation-fill-mode: forwards;
+  stays at the end */
+  /* animation-fill-mode: backwards;
+  at start already where its supposed to be  */
+  animation-fill-mode: both;
+  /* both of the above */
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate;*/
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+
+.circle:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(500px);
+  }
+}
